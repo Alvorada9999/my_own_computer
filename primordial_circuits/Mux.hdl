@@ -1,0 +1,20 @@
+/** 
+ * Multiplexor:
+ * out = a if sel == 0
+ *       b otherwise
+ */
+
+CHIP Mux {
+  //(A*!B*!SEL)+(A*B*!SEL)+(!A*B*SEL)+(A*B*SEL)
+  //A*!SEL = (A*!B*!SEL) + (A*B*!SEL)
+  //B*SEL = (!A*B*SEL)+(A*B*SEL)
+  //(A*!SEL)+(B*SEL) = (A*!B*!SEL)+(A*B*!SEL)+(!A*B*SEL)+(A*B*SEL)
+  IN a, b, sel;
+  OUT out;
+
+  PARTS:
+  Not(in=sel, out=notSel);
+  And(a=a, b=notSel, out=i);
+  And(a=b, b=sel, out=j);
+  Or(a=i, b=j, out=out);
+}

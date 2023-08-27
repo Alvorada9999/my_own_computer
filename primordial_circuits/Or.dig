@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="340" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="340" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="520" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>a</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>b</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes/>
+      <pos x="580" y="220"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="380" y="240"/>
+      <p2 x="420" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="240"/>
+      <p2 x="340" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="200"/>
+      <p2 x="420" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="200"/>
+      <p2 x="340" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="220"/>
+      <p2 x="520" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="220"/>
+      <p2 x="580" y="220"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

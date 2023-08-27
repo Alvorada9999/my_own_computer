@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>NAnd</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>LED</elementName>
+      <elementAttributes/>
+      <pos x="560" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes/>
+      <pos x="420" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes/>
+      <pos x="420" y="320"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="420" y="320"/>
+      <p2 x="440" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="280"/>
+      <p2 x="440" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="300"/>
+      <p2 x="560" y="300"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
