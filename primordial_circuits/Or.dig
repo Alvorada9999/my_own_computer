@@ -49,8 +49,13 @@
       <pos x="320" y="240"/>
     </visualElement>
     <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes/>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>out</string>
+        </entry>
+      </elementAttributes>
       <pos x="580" y="220"/>
     </visualElement>
   </visualElements>

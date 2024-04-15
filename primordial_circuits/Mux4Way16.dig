@@ -8,7 +8,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Y - 16 bits</string>
+          <string>out</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -120,7 +120,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>A - 16 bits</string>
+          <string>a</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -138,7 +138,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>B - 16 bits</string>
+          <string>b</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -156,7 +156,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>C - 16 bits</string>
+          <string>c</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -174,7 +174,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>D - 16 bits</string>
+          <string>d</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -192,7 +192,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>SEL0 - 16 bits</string>
+          <string>SEL0</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -224,7 +224,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>SEL1 - 16 bits</string>
+          <string>SEL1</string>
         </entry>
         <entry>
           <string>Bits</string>

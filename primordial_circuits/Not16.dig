@@ -18,10 +18,14 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>pin_0</string>
+          <string>in</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="120" y="100"/>
+      <pos x="80" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>NAnd</elementName>
@@ -34,16 +38,6 @@
       <pos x="180" y="180"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_1</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="180"/>
-    </visualElement>
-    <visualElement>
       <elementName>NAnd</elementName>
       <elementAttributes>
         <entry>
@@ -52,16 +46,6 @@
         </entry>
       </elementAttributes>
       <pos x="180" y="260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>NAnd</elementName>
@@ -74,16 +58,6 @@
       <pos x="180" y="340"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_3</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="340"/>
-    </visualElement>
-    <visualElement>
       <elementName>NAnd</elementName>
       <elementAttributes>
         <entry>
@@ -92,16 +66,6 @@
         </entry>
       </elementAttributes>
       <pos x="180" y="420"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_4</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>NAnd</elementName>
@@ -114,16 +78,6 @@
       <pos x="180" y="500"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_5</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="500"/>
-    </visualElement>
-    <visualElement>
       <elementName>NAnd</elementName>
       <elementAttributes>
         <entry>
@@ -132,16 +86,6 @@
         </entry>
       </elementAttributes>
       <pos x="180" y="580"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_6</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="580"/>
     </visualElement>
     <visualElement>
       <elementName>NAnd</elementName>
@@ -154,16 +98,6 @@
       <pos x="180" y="660"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_7</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="660"/>
-    </visualElement>
-    <visualElement>
       <elementName>NAnd</elementName>
       <elementAttributes>
         <entry>
@@ -172,16 +106,6 @@
         </entry>
       </elementAttributes>
       <pos x="180" y="740"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_8</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="740"/>
     </visualElement>
     <visualElement>
       <elementName>NAnd</elementName>
@@ -194,16 +118,6 @@
       <pos x="180" y="820"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_9</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="820"/>
-    </visualElement>
-    <visualElement>
       <elementName>NAnd</elementName>
       <elementAttributes>
         <entry>
@@ -212,16 +126,6 @@
         </entry>
       </elementAttributes>
       <pos x="180" y="900"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_10</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>NAnd</elementName>
@@ -234,16 +138,6 @@
       <pos x="180" y="980"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_11</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="980"/>
-    </visualElement>
-    <visualElement>
       <elementName>NAnd</elementName>
       <elementAttributes>
         <entry>
@@ -252,16 +146,6 @@
         </entry>
       </elementAttributes>
       <pos x="180" y="1060"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_12</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="1060"/>
     </visualElement>
     <visualElement>
       <elementName>NAnd</elementName>
@@ -274,16 +158,6 @@
       <pos x="180" y="1140"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_13</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="1140"/>
-    </visualElement>
-    <visualElement>
       <elementName>NAnd</elementName>
       <elementAttributes>
         <entry>
@@ -292,16 +166,6 @@
         </entry>
       </elementAttributes>
       <pos x="180" y="1220"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>pin_14</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="1220"/>
     </visualElement>
     <visualElement>
       <elementName>NAnd</elementName>
@@ -314,94 +178,78 @@
       <pos x="180" y="1300"/>
     </visualElement>
     <visualElement>
-      <elementName>In</elementName>
+      <elementName>Out</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>pin_15</string>
+          <string>out</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="120" y="1300"/>
+      <pos x="340" y="120"/>
     </visualElement>
     <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="120"/>
+      <elementName>BusSplitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>mirror</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="120"/>
     </visualElement>
     <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="200"/>
+      <elementName>BusSplitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="100" y="100"/>
     </visualElement>
     <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="280"/>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>dipDefault</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="80" y="140"/>
     </visualElement>
     <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="440"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="520"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="600"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="680"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="760"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="840"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="920"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="1000"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="1080"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="1160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="1240"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes/>
-      <pos x="300" y="1320"/>
+      <elementName>DipSwitch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="160"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -456,6 +304,10 @@
     <wire>
       <p1 x="140" y="140"/>
       <p2 x="180" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="140"/>
+      <p2 x="340" y="140"/>
     </wire>
     <wire>
       <p1 x="140" y="460"/>
@@ -536,6 +388,10 @@
     <wire>
       <p1 x="120" y="100"/>
       <p2 x="140" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="100"/>
+      <p2 x="100" y="100"/>
     </wire>
     <wire>
       <p1 x="140" y="100"/>
@@ -634,6 +490,14 @@
       <p2 x="300" y="120"/>
     </wire>
     <wire>
+      <p1 x="320" y="120"/>
+      <p2 x="340" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="120"/>
+      <p2 x="100" y="120"/>
+    </wire>
+    <wire>
       <p1 x="280" y="440"/>
       <p2 x="300" y="440"/>
     </wire>
@@ -660,6 +524,14 @@
     <wire>
       <p1 x="140" y="1340"/>
       <p2 x="180" y="1340"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="120"/>
+      <p2 x="80" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="140"/>
+      <p2 x="340" y="160"/>
     </wire>
     <wire>
       <p1 x="140" y="100"/>

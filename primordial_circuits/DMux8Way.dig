@@ -43,7 +43,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>sel_pin0</string>
+          <string>sel_0</string>
         </entry>
       </elementAttributes>
       <pos x="420" y="320"/>
@@ -53,7 +53,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>sel_pin1_and_2</string>
+          <string>sel_1</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -63,43 +63,83 @@
       <pos x="780" y="140"/>
     </visualElement>
     <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes/>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>a</string>
+        </entry>
+      </elementAttributes>
       <pos x="600" y="160"/>
     </visualElement>
     <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes/>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>b</string>
+        </entry>
+      </elementAttributes>
       <pos x="640" y="180"/>
     </visualElement>
     <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes/>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>c</string>
+        </entry>
+      </elementAttributes>
       <pos x="680" y="200"/>
     </visualElement>
     <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes/>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>d</string>
+        </entry>
+      </elementAttributes>
       <pos x="720" y="220"/>
     </visualElement>
     <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes/>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>e</string>
+        </entry>
+      </elementAttributes>
       <pos x="600" y="280"/>
     </visualElement>
     <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes/>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>f</string>
+        </entry>
+      </elementAttributes>
       <pos x="640" y="300"/>
     </visualElement>
     <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes/>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>g</string>
+        </entry>
+      </elementAttributes>
       <pos x="680" y="320"/>
     </visualElement>
     <visualElement>
-      <elementName>LED</elementName>
-      <elementAttributes/>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>h</string>
+        </entry>
+      </elementAttributes>
       <pos x="720" y="340"/>
     </visualElement>
   </visualElements>
