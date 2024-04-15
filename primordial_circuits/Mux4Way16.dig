@@ -192,7 +192,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>SEL0</string>
+          <string>sel_0</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -224,7 +224,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>SEL1</string>
+          <string>sel_1</string>
         </entry>
         <entry>
           <string>Bits</string>
