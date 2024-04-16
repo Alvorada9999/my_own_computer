@@ -7,10 +7,6 @@
  */
 
 CHIP DMux4Way {
-  //(!sel0*!sel1*in)
-  //(sel0*!sel1*in)
-  //(!sel0*sel1*in)
-  //(sel0*sel1*in)
   IN in, sel[2];
   OUT a, b, c, d;
 
